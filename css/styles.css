@@ -1129,6 +1129,7 @@ img {
     margin-top: 3.6px;
     margin-left: 0px;
     padding: 0;
+    cursor: pointer;
 }
 .fieldset1 {
     display: flex;
