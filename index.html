@@ -48,7 +48,50 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button class="button9" data-modal-close><svg class="X" width="11" height="11">
-                        <use href="./images/icons.svg#icon-Vector"></use></svg></button>
+                        <use href="./images/icons.svg#icon-Vector"></use></svg>
+                    </button>
+                    <form class="form-1">
+                        <h2 class="titleform">Zostaw swoje dane w formularzu poniżej</h2>
+                        <label class="label" for="name">Imię</label>
+                        <fieldset class="fieldset">
+                            <svg class="name-ico" >
+                                <use href="./images/icons.svg#icon-Vector-1"></use>
+                            </svg>
+                            <input class="input" type="text" id="name"/> 
+                        </fieldset>
+                        <label class="label" for="name">Telefon</label>
+                        <fieldset class="fieldset">
+                            <svg class="name-ico" >
+                                <use href="./images/icons.svg#icon-Vector-2"></use>
+                            </svg>
+                            <input class="input" 
+                            type="tel" 
+                            pattern="[0-9]{9}" id="phone_number"/> 
+                        </fieldset>
+                        <label class="label" for="name">Email</label>
+                        <fieldset class="fieldset">
+                            <svg class="name-ico" >
+                                <use href="./images/icons.svg#icon-Vector-5"></use>
+                            </svg>
+                            <input class="input" type="email" name="email"/> 
+                        </fieldset>
+                        <label class="label" for="name">Komentarz</label>
+                        <fieldset class="fieldset1">
+                            <textarea type="tekst" class="coment" name="Komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+                        </fieldset>
+
+                        <label class="statute">
+                            <input class="statute-box" type="checkbox" id="legal"/>
+                            <span class="checkmark">
+                                <svg class="ico-checkpox">
+                                    <use href="./images/icons.svg#icon-Vector-3"></use></svg>
+                            </span>
+
+                           <span class="stat-text"> Oświadczam iż akceptuję <a class="stat-text-web" href="">Regulamin</a> i <a class="stat-text-web" href="">Politykę Prywatności.</a></span>
+                        </label>
+                        <button class="button-stat" type="submit">Wyślij</button>
+
+                    </form>
                 </div>
             </div>
         </div>
@@ -340,6 +383,22 @@
                     </li>
                 </ul>
             </div>
+            <div class="join4">
+
+            <p>ZAPISZ SIĘ DO NEWSLETTERA</p>
+            <form class="form-2">
+                <fieldset class="fieldset-footer">
+                    <input class="input3" type="email" placeholder="E-mail" id="email"/>
+                </fieldset>
+            </div>
+            <div class="join5">
+                <button class="button-stat" type="submit"><svg class="linkedin2" width="130" height="30">
+                    <use href="./images/icons.svg#icon-Group-1"></use></svg>
+
+                    </button>
+        </div>
+
+            
         </div>
     </footer>
     <script src="./css/js/modal.js"></script>
