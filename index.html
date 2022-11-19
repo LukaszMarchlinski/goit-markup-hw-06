@@ -52,36 +52,36 @@
                     </button>
                     <form class="form-1">
                         <h2 class="titleform">Zostaw swoje dane w formularzu poniżej</h2>
-                        <label class="label" for="name" required>Imię</label>
+                        <label class="label" for="name">Imię</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-1"></use>
                             </svg>
-                            <input class="input" type="text" id="name"/> 
+                            <input class="input" type="text" id="name" required/> 
                         </fieldset>
-                        <label class="label" for="phone_number" required>Telefon</label>
+                        <label class="label" for="phone_number">Telefon</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-2"></use>
                             </svg>
                             <input class="input" 
                             type="tel" 
-                            pattern="[0-9]{9}" id="phone_number"/> 
+                            pattern="[0-9]{9}" type="phone_number" required/> 
                         </fieldset>
-                        <label class="label" for="email" required>Email</label>
+                        <label class="label" for="email">Email</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-5"></use>
                             </svg>
-                            <input class="input" type="email" name="email"/> 
+                            <input class="input" type="email" name="email" required/> 
                         </fieldset>
-                        <label class="label" for="coment" required>Komentarz</label>
+                        <label class="label" for="coment">Komentarz</label>
                         <fieldset class="fieldset1">
-                            <textarea type="tekst" class="coment" name="Komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+                            <textarea type="tekst" class="coment" name="Komentarz" required rows="5" placeholder="Wprowadź tekst"></textarea>
                         </fieldset>
 
                         <label class="statute">
-                            <input class="statute-box" type="checkbox" id="legal"/>
+                            <input class="statute-box" type="checkbox" id="legal" required/>
                             <span class="checkmark">
                                 <svg class="ico-checkpox">
                                     <use href="./images/icons.svg#icon-Vector-3"></use></svg>
@@ -388,7 +388,7 @@
                 <label for="email">IZAPISZ SIĘ DO NEWSLETTERA</label>
             
                 <fieldset class="fieldset-footer">
-                    <input class="input3" type="email" placeholder="E-mail" id="email"/>
+                    <input class="input3" type="email" required placeholder="E-mail" id="email"/>
                 </fieldset>
             </div>
             <div class="join5">
