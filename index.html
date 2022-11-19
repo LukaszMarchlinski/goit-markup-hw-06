@@ -52,14 +52,14 @@
                     </button>
                     <form class="form-1">
                         <h2 class="titleform">Zostaw swoje dane w formularzu poniżej</h2>
-                        <label class="label" for="name">Imię</label>
+                        <label class="label" for="name" required>Imię</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-1"></use>
                             </svg>
                             <input class="input" type="text" id="name"/> 
                         </fieldset>
-                        <label class="label" for="name">Telefon</label>
+                        <label class="label" for="phone_number" required>Telefon</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-2"></use>
@@ -68,14 +68,14 @@
                             type="tel" 
                             pattern="[0-9]{9}" id="phone_number"/> 
                         </fieldset>
-                        <label class="label" for="name">Email</label>
+                        <label class="label" for="email" required>Email</label>
                         <fieldset class="fieldset">
                             <svg class="name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-5"></use>
                             </svg>
                             <input class="input" type="email" name="email"/> 
                         </fieldset>
-                        <label class="label" for="name">Komentarz</label>
+                        <label class="label" for="coment" required>Komentarz</label>
                         <fieldset class="fieldset1">
                             <textarea type="tekst" class="coment" name="Komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
                         </fieldset>
@@ -384,9 +384,9 @@
                 </ul>
             </div>
             <div class="join4">
-
-            <p>ZAPISZ SIĘ DO NEWSLETTERA</p>
-            <form class="form-2">
+                <form class="form-2">
+                <label for="email">IZAPISZ SIĘ DO NEWSLETTERA</label>
+            
                 <fieldset class="fieldset-footer">
                     <input class="input3" type="email" placeholder="E-mail" id="email"/>
                 </fieldset>
